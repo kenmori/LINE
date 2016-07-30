@@ -1,13 +1,13 @@
 ## like a 'LINE' Message Component 
 ![http://kenjimorita.jp/wp-content/uploads/2016/02/fafa.gif](http://kenjimorita.jp/wp-content/uploads/2016/02/fafa.gif)
 
-- 1, mkdir [your_project_folder]
-- 2, cd [your_project_folder]
-- 3, git clone https://github.com/kenmori/LINE.git
-- 4, cd LINE
-- 5, npm install
-- 6, gulp
-- 7, http://localhost:4000/
+```bash
+git clone https://github.com/kenmori/LINE.git
+cd LINE
+npm install
+gulp
+```
+[http://localhost:4000/](http://localhost:4000/)
 ※not http://localhost:8080/
 
 ## enjoy
