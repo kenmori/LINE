@@ -1,0 +1,35 @@
+h1 {
+  font-size: 20px;
+}
+.comment:nth-child(odd) {
+  float: left;
+  width: 44%;
+}
+.comment:nth-child(odd) p {
+  background: #ECECEC;
+  margin: 10px;
+  border-radius: 7px;
+  padding: 10px 5px;
+  font-size: 40px;
+  box-sizing: border-box;
+}
+.comment:nth-child(even){
+  float: left;
+  width: 50%;
+  margin-top: 105px;
+}
+.comment:nth-child(even) p{
+  background: #CBFF7D;
+  margin: 10px;
+  border-radius: 7px;
+  padding: 10px 5px;
+  font-size: 40px;
+  box-sizing: border-box;
+
+}
+.comment:nth-child(odd):after{
+  clear: both;
+  display:block;
+  visibility:visible;
+  content: '';
+}
