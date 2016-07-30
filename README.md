@@ -3,7 +3,7 @@
 
 - 1, mkdir [your_project_folder]
 - 2, cd [your_project_folder]
-- 3, git clone https://github.com/kenmori/React-ES6-Flux-Playground.git
+- 3, git clone https://github.com/kenmori/LINE.git
 - 4, cd React-ES6-Flux-Playground/react_es6
 - 5, npm install
 - 6, gulp
