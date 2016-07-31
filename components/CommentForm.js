@@ -5,7 +5,6 @@ export default class CommentForm extends React.Component {
   handleSubmit(e){
     e.preventDefault();
     var author = ReactDOM.findDOMNode(this.refs.author).value;
-    console.log(author);
     var text = ReactDOM.findDOMNode(this.refs.text).value;
     if(!text || !author) return;
     this.props.onCommentSubmit({author: author, text: text});

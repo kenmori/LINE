@@ -273,7 +273,6 @@ var CommentForm = (function (_React$Component) {
     value: function handleSubmit(e) {
       e.preventDefault();
       var author = _reactDom2['default'].findDOMNode(this.refs.author).value;
-      console.log(author);
       var text = _reactDom2['default'].findDOMNode(this.refs.text).value;
       if (!text || !author) return;
       this.props.onCommentSubmit({ author: author, text: text });
